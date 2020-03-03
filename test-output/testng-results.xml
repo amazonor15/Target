@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6898" started-at="2020-03-03T14:29:11 EST" finished-at="2020-03-03T14:29:18 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6898" started-at="2020-03-03T14:29:11 EST" finished-at="2020-03-03T14:29:18 EST">
+      <class name="allTests.HomePageTest">
+        <test-method status="PASS" signature="titileValidation()[pri:0, instance:allTests.HomePageTest@c46bcd4]" name="titileValidation" duration-ms="3692" started-at="2020-03-03T14:29:11 EST" finished-at="2020-03-03T14:29:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titileValidation -->
+        <test-method status="PASS" signature="valiadteComputertext()[pri:0, instance:allTests.HomePageTest@c46bcd4]" name="valiadteComputertext" duration-ms="2980" started-at="2020-03-03T14:29:14 EST" finished-at="2020-03-03T14:29:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadteComputertext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:allTests.HomePageTest@c46bcd4]" name="teardown" is-config="true" duration-ms="193" started-at="2020-03-03T14:29:17 EST" finished-at="2020-03-03T14:29:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- allTests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
