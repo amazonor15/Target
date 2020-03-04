@@ -3,19 +3,19 @@ pipeline{
     stages{
         stage('version'){
          steps{
-            sh 'mvn -version'
+            zsh 'mvn -version'
             
         }   
         }
          stage('clean'){
          steps{
-            sh 'mvn clean'
+            zsh 'mvn clean'
             
         }   
         }
          stage('install'){
          steps{
-            sh 'mvn package'
+            zsh 'mvn package'
             
         }   
         }  
